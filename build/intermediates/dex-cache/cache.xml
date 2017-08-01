@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alejandro\Desktop\AlbaDef\mobile_app\app\libs\transfer-objs.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e840c0e1c1767ae50577986c1f2e8e6825df7ad">
+        <dex dex="C:\Users\Alejandro\Desktop\AlbaDef\mobile_app\app\build\intermediates\pre-dexed\debug\transfer-objs_779f962c88a65a148eda8d6fcef5d40e8d71bbfd.jar" />
+    </item>
+
+</items>

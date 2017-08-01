@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_server_error.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_server_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tsk_details.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_tsk_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cstmr_mgmt.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_cstmr_mgmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cstmr_details.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_cstmr_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_prd_details.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_prd_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tsk_mgmt.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_tsk_mgmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_rpt_form.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_rpt_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_prd_details.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_prd_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_prds_mgmt.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_prds_mgmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_prds_mgmt.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_prds_mgmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_rpt_form.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_rpt_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cstmr_mgmt.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_cstmr_mgmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cstmr_details.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_cstmr_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tsk_details.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_tsk_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_auth.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_server_error.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\menu\\menu_server_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tsk_mgmt.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_tsk_mgmt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_auth.xml",
+        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\menu\\menu_auth.xml"
+    }
+]

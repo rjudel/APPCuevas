@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jobreporting"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jobreporting.views.AuthActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.AuthActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.CstmrMgmtActivity"
+            android:label="@string/title_activity_cstmr_mgmt"
+            android:parentActivityName="com.jobreporting.views.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.CstmrDetailsActivity"
+            android:label="@string/title_activity_cstmr_details"
+            android:parentActivityName="com.jobreporting.views.CstmrMgmtActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.CstmrMgmtActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.PrdsMgmtActivity"
+            android:label="@string/title_activity_prds_mgmt"
+            android:parentActivityName="com.jobreporting.views.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.PrdDetailsActivity"
+            android:label="@string/title_activity_prd_details"
+            android:parentActivityName="com.jobreporting.views.PrdsMgmtActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.PrdsMgmtActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.TskMgmtActivity"
+            android:label="@string/title_activity_tsk_mgmt"
+            android:parentActivityName="com.jobreporting.views.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.TskDetailsActivity"
+            android:label="@string/title_activity_tsk_details"
+            android:parentActivityName="com.jobreporting.views.TskMgmtActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.TskMgmtActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.RptFormActivity"
+            android:label="@string/title_activity_rpt_form"
+            android:parentActivityName="com.jobreporting.views.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.jobreporting.views.ServerErrorActivity"
+            android:label="@string/title_activity_server_error"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jobreporting.views.HomeActivity" />
+        </activity>
+
+        <service android:name="com.jobreporting.business.services.ReportDispatchService" />
+        <service android:name="com.jobreporting.business.services.SyncherService" />
+        <service android:name="com.jobreporting.business.services.ObraService" />
+        <!--
+             <provider
+            android:name=".dao.JobReportingProvider"
+            android:authorities="@string/content_authority" />
+        -->
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.jobreporting.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

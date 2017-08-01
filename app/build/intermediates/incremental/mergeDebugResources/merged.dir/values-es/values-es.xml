@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="action_settings">ajustes</string>
+    <string name="app_name">9FAlba</string>
+    <string name="btn_auth_reset">Reiniciar</string>
+    <string name="btn_auth_submit">Enviar</string>
+    <string name="btn_home_cstmr_details">Ver Clientes</string>
+    <string name="btn_home_prd_details">Ver Productos</string>
+    <string name="btn_home_subReport">Enviar Parte</string>
+    <string name="btn_home_tsk_details">Tareas Asignadas</string>
+    <string name="btn_rpt_form_dyna_imageUpload">Selecciona Imagen..</string>
+    <string name="btn_rpt_form_reset">Reiniciar</string>
+    <string name="btn_rpt_form_save">Enviar</string>
+    <string name="btn_tsk_report">Reportar</string>
+    <string name="data_not_avialable">No Disponible</string>
+    <string name="label_auth_org_name">Nombre Empresa:</string>
+    <string name="label_auth_wrk_name">Nombre Trabajador :</string>
+    <string name="label_server_error">Error del Servidor</string>
+    <string name="label_server_error_code">Código</string>
+    <string name="label_server_error_occurred">Ocurrió</string>
+    <string name="label_server_message">Mensaje del servidor para el usuario</string>
+    <string name="location_btn_cancel">Cancelar</string>
+    <string name="location_btn_settings">Ajustes</string>
+    <string name="location_detect_message">La localización GPS no está habilitada en tu teléfono. ¿Quieres ir al menú de configuración GPS?</string>
+    <string name="location_detect_title">No se puede detectar la localización</string>
+    <string name="no_connectivity_message_alert_auth">¡Lo siento! No se puede conectar con el servidor. \n\nPor favor, revisa la conexión a Internet y vuelve a intentarlo. </string>
+    <string name="no_connectivity_title_alert_auth">No hay conexión a Internet</string>
+    <string name="not_connect_server_message_auth">Problemas de conexión con el servidor, no se puede establecer la comunicación.\n\nPor favor, póngase en contacto con el administrador.</string>
+    <string name="not_connect_server_title_auth">Error de conexión</string>
+    <string name="notify_report_cText">Nombre del parte generado : </string>
+    <string name="notify_report_cTitle">Parte enviado correctamente</string>
+    <string name="progress_auth">Autenticando...</string>
+    <string name="rpt_data_empty_message_alert">Todos los campos del parte están en blanco,  no se puede enviar un parte vacío.</string>
+    <string name="rpt_data_empty_title_alert">Error de validacion</string>
+    <string name="rpt_data_invalid_message_alert">No se puede enviar el informe, hay errores en los datos del informe. Por favor corrija los errores en las marcas rojas (s) por encima y vuelve a intentarlo.</string>
+    <string name="rpt_data_invalid_title_alert">Error de datos no válido</string>
+    <string name="rpt_form_doubletap_hint">Doble toque para Seleccionar...</string>
+    <string name="rpt_form_heading">Por favor, rellena los siguientes datos :</string>
+    <string name="rpt_form_signpad">Firma del cliente</string>
+    <string name="rpt_form_signpad_clear_btn">Limpiar</string>
+    <string name="rpt_form_spinner_initialvalue">Seleccionar</string>
+    <string name="search">Buscar</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="text_imageUpload_label_photoSelected">Selección guardada</string>
+    <string name="text_imageUpload_selectImage">Selecciona Foto</string>
+    <string name="title_activity_auth">Autenticación única</string>
+    <string name="title_activity_cstmr_details">Detalles del cliente</string>
+    <string name="title_activity_cstmr_mgmt">"Lista de Clientes "</string>
+    <string name="title_activity_home"> Partes de Trabajo</string>
+    <string name="title_activity_prd_details">Detalles del producto</string>
+    <string name="title_activity_prds_mgmt">Catálogo de productos</string>
+    <string name="title_activity_rpt_form">Enviar Parte</string>
+    <string name="title_activity_server_error">Error del Servidor</string>
+    <string name="title_activity_tsk_details">Detalles de la tarea</string>
+    <string name="title_activity_tsk_mgmt">Lista de Tareas</string>
+    <string name="toast_message_authenticated">Autenticado con éxito.</string>
+    <string name="toast_message_submit_report">Tu parte ha sido guardado y está siendo enviado. Recibirás una notificación cuando se haya enviado.</string>
+    <string name="validation_alphanumeric_notAcceptableChars">¡Lo siento! dos puntos (:) vertical (|) coma (,) punto y coma (;), mayor que (>) menor a continuación (&lt;) No se admiten.</string>
+</resources>
