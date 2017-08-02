@@ -82,8 +82,8 @@ public class JobReportingDbHelper extends SQLiteOpenHelper {
                 TareaDataEntry.COLUMN_HORA + " TIME, " +
                 TareaDataEntry.COLUMN_CLIENTE + " VARCHAR(50)," +
                 TareaDataEntry.COLUMN_DIRECCION + " TEXT, " +
-                TareaDataEntry.COLUMN_MATERIALES + " TEXT " +
-                TareaDataEntry.COLUMN_PAGO + " TEXT " +
+                TareaDataEntry.COLUMN_MATERIALES + " TEXT, " +
+                TareaDataEntry.COLUMN_PAGO + " TEXT, " +
                 TareaDataEntry.COLUMN_ESTADO + " VARCHAR(50) " +
                 " );";
 

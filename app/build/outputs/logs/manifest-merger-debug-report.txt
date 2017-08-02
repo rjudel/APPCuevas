@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:2:1-146:12
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:2:1-141:12
 	package
 		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml
@@ -42,7 +42,7 @@ ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:11:22-78
 application
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:13:5-144:19
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:13:5-139:19
 MERGED from [com.android.support:design:23.4.0] C:\Users\Ricardo\.android\build-cache\64cd0bff13497441cc646dfb1bdff966e899524f\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Ricardo\.android\build-cache\f3c0887ebd28f43ba38536d87ee758b138f18f82\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Ricardo\.android\build-cache\5a4c53a5862019be62b464dc78bc445a9d46d9c2\output\AndroidManifest.xml:7:5-20
@@ -71,8 +71,18 @@ ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManife
 		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
 		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:20:13-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.jobreporting.views.HomeActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:30:9-42:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:30:9-38:16
 	android:screenOrientation
 		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:33:13-49
 	android:label
@@ -87,122 +97,108 @@ ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManife
 		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:37:17-68
 	android:name
 		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:36:17-63
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:38:9-41:25
-action#android.intent.action.MAIN
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:39:13-65
-	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:39:21-62
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:40:13-73
-	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:40:23-70
 activity#com.jobreporting.views.CstmrMgmtActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:44:5-53:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:40:5-49:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:48:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:44:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:46:9-58
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:42:9-58
 	android:parentActivityName
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:47:9-57
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:43:9-57
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:49:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:45:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:45:9-48
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:41:9-48
 activity#com.jobreporting.views.CstmrDetailsActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:55:5-64:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:51:5-60:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:59:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:55:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:57:9-61
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:53:9-61
 	android:parentActivityName
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:58:9-62
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:54:9-62
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:60:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:56:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:56:9-51
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:52:9-51
 activity#com.jobreporting.views.PrdsMgmtActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:68:5-77:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:64:5-73:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:72:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:68:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:70:9-57
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:66:9-57
 	android:parentActivityName
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:71:9-57
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:67:9-57
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:73:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:69:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:69:9-47
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:65:9-47
 activity#com.jobreporting.views.PrdDetailsActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:80:5-89:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:76:5-85:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:84:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:80:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:82:9-59
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:78:9-59
 	android:parentActivityName
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:83:9-61
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:79:9-61
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:85:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:81:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:81:9-49
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:77:9-49
 activity#com.jobreporting.views.TskMgmtActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:91:5-100:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:87:5-96:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:95:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:91:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:93:9-56
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:89:9-56
 	android:parentActivityName
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:94:9-57
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:90:9-57
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:96:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:92:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:92:9-46
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:88:9-46
 activity#com.jobreporting.views.TskDetailsActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:102:5-111:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:98:5-107:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:106:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:102:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:104:9-59
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:100:9-59
 	android:parentActivityName
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:105:9-60
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:101:9-60
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:107:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:103:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:103:9-49
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:99:9-49
 activity#com.jobreporting.views.RptFormActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:114:5-123:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:110:5-119:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:118:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:114:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:116:9-56
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:112:9-56
 	android:parentActivityName
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:117:9-57
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:113:9-57
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:119:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:115:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:115:9-46
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:111:9-46
 activity#com.jobreporting.views.ServerErrorActivity
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:125:5-133:16
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:121:5-129:16
 	android:screenOrientation
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:128:9-45
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:124:9-45
 	android:label
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:127:9-60
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:123:9-60
 	android:theme
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:129:9-52
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:125:9-52
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:126:9-50
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:122:9-50
 service#com.jobreporting.business.services.ReportDispatchService
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:135:5-72
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:131:5-72
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:135:14-69
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:131:14-69
 service#com.jobreporting.business.services.SyncherService
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:136:5-65
+ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:132:5-65
 	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:136:14-62
-service#com.jobreporting.business.services.ObraService
-ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:137:5-62
-	android:name
-		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:137:14-59
+		ADDED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml:132:14-62
 uses-sdk
 INJECTED from C:\Users\Ricardo\Desktop\Cuevas\mobile_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:23.4.0] C:\Users\Ricardo\.android\build-cache\64cd0bff13497441cc646dfb1bdff966e899524f\output\AndroidManifest.xml:20:5-43

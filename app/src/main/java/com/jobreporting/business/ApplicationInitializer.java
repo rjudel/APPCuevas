@@ -22,9 +22,8 @@ import com.jobreporting.base.Constants;
 import com.jobreporting.business.common.AppDeviceManager;
 import com.jobreporting.business.common.AppLocationManager;
 import com.jobreporting.business.common.LogManager;
-import com.jobreporting.business.services.ObraService;
-import com.jobreporting.business.services.ReportDispatchService;
-import com.jobreporting.business.services.SyncherService;
+//import com.jobreporting.business.services.ReportDispatchService;
+//import com.jobreporting.business.services.SyncherService;
 import com.jobreporting.views.HomeActivity;
 
 import java.util.Locale;
@@ -71,12 +70,12 @@ public class ApplicationInitializer {
         configureLocationManager();
 
         /* Initiate Syncher Service */
-        callSyncherService();
+//        callSyncherService();
 
         /* Call Report Dispatch service to verify if there are pending reports to be submitted */
-        callReportDispatchService();
-
-        callObraService();
+//        callReportDispatchService();
+//
+//        callObraService();
 
     }
 
@@ -92,13 +91,13 @@ public class ApplicationInitializer {
 
         LogManager.log(LOG_TAG, "Syncing the local data with the server to check if there are any updates...", Log.DEBUG);
 
-        Intent intent = new Intent(context, SyncherService.class);
+//        Intent intent = new Intent(context, SyncherService.class);
 
         /* If this service is not already running, it will be instantiated and started (creating a process for it if needed);
         if it is running then it remains running. */
 
-        ComponentName service = context.startService(intent);
-        LogManager.log(LOG_TAG, "Syncher Service called : " + service.getShortClassName(), Log.DEBUG);
+//        ComponentName service = context.startService(intent);
+//        LogManager.log(LOG_TAG, "Syncher Service called : " + service.getShortClassName(), Log.DEBUG);
 
     }
 
@@ -106,27 +105,16 @@ public class ApplicationInitializer {
 
         LogManager.log(LOG_TAG, "Checking if any pending report exist to send to server...", Log.DEBUG);
 
-        Intent intent = new Intent(context, ReportDispatchService.class);
+//        Intent intent = new Intent(context, ReportDispatchService.class);
 
         /* If this service is not already running, it will be instantiated and started (creating a process for it if needed);
         if it is running then it remains running. */
-        ComponentName service = context.startService(intent);
-        LogManager.log(LOG_TAG, "Report Dispatch Service called : " + service.getShortClassName(), Log.DEBUG);
+//        ComponentName service = context.startService(intent);
+//        LogManager.log(LOG_TAG, "Report Dispatch Service called : " + service.getShortClassName(), Log.DEBUG);
 
     }
 
-    private void callObraService(){
 
-        LogManager.log(LOG_TAG, "Llamando a Obra Service", Log.DEBUG);
-
-        Intent intent = new Intent(context, ObraService.class);
-
-        /* If this service is not already running, it will be instantiated and started (creating a process for it if needed);
-        if it is running then it remains running. */
-        ComponentName service = context.startService(intent);
-        LogManager.log(LOG_TAG, "Service de Obra llamado " + service.getShortClassName(), Log.DEBUG);
-
-    }
 
     private void configureLocationManager(){
 

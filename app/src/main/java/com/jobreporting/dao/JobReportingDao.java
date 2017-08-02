@@ -22,7 +22,7 @@ import android.util.Log;
 import com.jobreporting.base.Constants;
 import com.jobreporting.business.common.LogManager;
 import com.jobreporting.dao.dataObjects.ReportData;
-import com.jobreporting.entities.Obra;
+import com.jobreporting.entities.WSTareas;
 import com.jobreporting.exceptions.DataAccessException;
 import com.jobreporting.utilities.Utility;
 
@@ -155,324 +155,330 @@ public class JobReportingDao {
 
     }
 
-    public long saveDynaData(byte[] blobBytes, String dynaType){
+//    public long saveDynaData(byte[] blobBytes, String dynaType){
+//
+//        long _id = -1;
+//
+//        try{
+//            ContentValues dataSetValues = new ContentValues();
+//            dataSetValues.put(JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_TYPE, dynaType);
+//            dataSetValues.put(JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_DATA, blobBytes);
+//            dataSetValues.put(JobReportingContract.DynaFieldsEntry.COLUMN_CREATED_ON, Utility.createDateStringFromPattern(Constants.DATEFORMAT_DB_CREATED_ON));
+//
+//            _id = db.insert(
+//                    JobReportingContract.DynaFieldsEntry.TABLE_NAME,
+//                    null,
+//                    dataSetValues
+//            );
+//
+//            if (_id > 0){
+//                LogManager.log(LOG_TAG, "(saveDynaData) Id generated: " + _id, Log.DEBUG);
+//            }
+//            else {
+//                throw new DataAccessException("Failed to insert record for dyna data.");
+//            }
+//        }
+//        catch (DataAccessException daEx){
+//            throw daEx;
+//        }
+//        catch (SQLException sqlEx){
+//            LogManager.log(LOG_TAG, "(saveDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
+//            throw new DataAccessException("saveDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
+//        }
+//
+//        return _id;
+//
+//    }
 
+//    public boolean flushOldDynaData(){
+//
+//        boolean isDeleted = false;
+//
+//        try{
+//            String whereClause = "1"; //To the count of deleted rows, 1 is passed here
+//            String[] whereArgs = null;
+//
+//            int count = db.delete(
+//                    JobReportingContract.DynaFieldsEntry.TABLE_NAME,
+//                    whereClause,
+//                    whereArgs
+//            );
+//
+//            LogManager.log(LOG_TAG, "(flushOldDynaData) No. of rows deleted: " + count, Log.DEBUG);
+//
+//            isDeleted = true;
+//
+//        }
+//        catch (DataAccessException daEx){
+//            throw daEx;
+//        }
+//        catch (SQLException sqlEx){
+//            LogManager.log(LOG_TAG, "(flushOldDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
+//            throw new DataAccessException("flushOldDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
+//        }
+//
+//        return isDeleted;
+//
+//    }
+
+//    public byte[] fetchDynaData(String dynaType){
+//
+//        byte[] data = null;
+//
+//        try{
+//            String[] projection = {JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_DATA};
+//            String whereClause = JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_TYPE + " = ?";
+//            String[] whereArgs = { dynaType };
+//
+//            Cursor cursor = db.query(
+//                    JobReportingContract.DynaFieldsEntry.TABLE_NAME,
+//                    projection,
+//                    whereClause,
+//                    whereArgs,
+//                    null,
+//                    null,
+//                    null
+//            );
+//
+//            LogManager.log(LOG_TAG, "(fetchDynaData) Query : " + cursor.toString(), Log.DEBUG);
+//
+//            boolean isDataAvailable = cursor.moveToFirst();
+//
+//            if (isDataAvailable) {
+//
+//                int columnIndex = cursor.getColumnIndex(JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_DATA);
+//                data = cursor.getBlob(columnIndex);
+//
+//            }
+//            else{
+//                LogManager.log(LOG_TAG, "No records found in dyna data table.", Log.ERROR);
+//                throw new DataAccessException("No records found in dyna data table.");
+//            }
+//
+//            cursor.close();
+//
+//        }
+//        catch (DataAccessException daEx){
+//            throw daEx;
+//        }
+//        catch (SQLException sqlEx){
+//            LogManager.log(LOG_TAG, "(fetchDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
+//            throw new DataAccessException("fetchDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
+//        }
+//
+//        return data;
+//
+//    }
+//
+//    public long saveReportData(String reportData, byte[] photoBytesData, String photoImageName, byte[] signature){
+//
+//        long _id = -1;
+//
+//        try{
+//            ContentValues dataSetValues = new ContentValues();
+//            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_DATA, reportData);
+//            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_PHOTO, photoBytesData);
+//            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_PHOTO_NAME, photoImageName);
+//            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_SIGN, signature);
+//            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_STATUS, Constants.REPORTDATAENTRY_STATUS_NOT_SAVED);
+//            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_CREATED_ON, Utility.createDateStringFromPattern(Constants.DATEFORMAT_DB_CREATED_ON));
+//
+//            _id = db.insert(
+//                    JobReportingContract.ReportDataEntry.TABLE_NAME,
+//                    null,
+//                    dataSetValues
+//            );
+//
+//            if (_id > 0){
+//                LogManager.log(LOG_TAG, "(saveReportData) Id generated: " + _id, Log.DEBUG);
+//            }
+//            else {
+//                throw new DataAccessException("Failed to insert record for report data.");
+//            }
+//        }
+//        catch (DataAccessException daEx){
+//            throw daEx;
+//        }
+//        catch (SQLException sqlEx){
+//            LogManager.log(LOG_TAG, "(saveReportData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
+//            throw new DataAccessException("saveReportData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
+//        }
+//
+//        return _id;
+//
+//    }
+//
+//    public boolean fetchAllReportData(List<ReportData> dataList){
+//
+//        boolean isDataAvailable = false;
+//
+//        try{
+//
+//            String[] projection = {JobReportingContract.ReportDataEntry._ID, JobReportingContract.ReportDataEntry.COLUMN_DATA, JobReportingContract.ReportDataEntry.COLUMN_PHOTO, JobReportingContract.ReportDataEntry.COLUMN_PHOTO_NAME, JobReportingContract.ReportDataEntry.COLUMN_SIGN};
+//            String whereClause = JobReportingContract.ReportDataEntry.COLUMN_STATUS + " = ?";
+//            String[] whereArgs = { Constants.REPORTDATAENTRY_STATUS_NOT_SAVED };
+//            String sortOrder = JobReportingContract.ReportDataEntry.COLUMN_CREATED_ON + " ASC";
+//
+//            Cursor reportCursor = db.query(
+//                    JobReportingContract.ReportDataEntry.TABLE_NAME,
+//                    projection,
+//                    whereClause,
+//                    whereArgs,
+//                    null,
+//                    null,
+//                    sortOrder
+//            );
+//
+//            LogManager.log(LOG_TAG, "(fetchAllReportData) Query : " + reportCursor.toString(), Log.DEBUG);
+//
+//            isDataAvailable = reportCursor.moveToFirst();
+//
+//            if (isDataAvailable) {
+//
+//                do {
+//                    ReportData reportData = new ReportData();
+//
+//                    int columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_DATA);
+//                    String data = reportCursor.getString(columnIndex);
+//                    reportData.setData(data);
+//
+//                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_PHOTO);
+//                    byte[] photo = reportCursor.getBlob(columnIndex);
+//                    reportData.setPhoto(photo);
+//
+//                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_PHOTO_NAME);
+//                    String photoImageName = reportCursor.getString(columnIndex);
+//                    reportData.setPhotoName(photoImageName);
+//
+//                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_SIGN);
+//                    byte[] sign = reportCursor.getBlob(columnIndex);
+//                    reportData.setSign(sign);
+//
+//                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry._ID);
+//                    int id = reportCursor.getInt(columnIndex);
+//                    reportData.setId(id);
+//
+//                    dataList.add(reportData);
+//                }
+//                while (reportCursor.moveToNext());
+//
+//            }
+//            else{
+//                LogManager.log(LOG_TAG, "No records found in Report data table.", Log.DEBUG);
+//            }
+//
+//            reportCursor.close();
+//
+//        }
+//        catch (Exception ex){
+//            LogManager.log(LOG_TAG, "(fetchAllReportData) Exception occurred : " + ex.getMessage(), Log.ERROR);
+//        }
+//
+//        return isDataAvailable;
+//
+//    }
+//
+//    public boolean updateDispatchedReportStatus(int id){
+//
+//        boolean isUpdated = false;
+//
+//        try{
+//            ContentValues dataSetValues = new ContentValues();
+//            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_STATUS, Constants.REPORTDATAENTRY_STATUS_SAVED);
+//
+//            String whereClause = JobReportingContract.ReportDataEntry._ID + " = ?";
+//            String[] whereArgs = { Integer.toString(id) };
+//
+//            int count = db.update(
+//                    JobReportingContract.ReportDataEntry.TABLE_NAME,
+//                    dataSetValues,
+//                    whereClause,
+//                    whereArgs
+//            );
+//
+//            if (count > 0){
+//                LogManager.log(LOG_TAG, "(updateDispatchedReportStatus) Report data status updated in the records. ", Log.DEBUG);
+//
+//                isUpdated = true;
+//            }
+//            else{
+//                LogManager.log(LOG_TAG, "(updateDispatchedReportStatus) Failed to update the data in records. ", Log.ERROR);
+//            }
+//
+//        }
+//        catch (Exception ex){
+//            LogManager.log(LOG_TAG, "(updateDispatchedReportStatus) Exception occurred : " + ex.getMessage(), Log.ERROR);
+//        }
+//
+//        return isUpdated;
+//
+//    }
+
+    public long saveTareas(WSTareas tareas){
         long _id = -1;
-
         try{
             ContentValues dataSetValues = new ContentValues();
-            dataSetValues.put(JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_TYPE, dynaType);
-            dataSetValues.put(JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_DATA, blobBytes);
-            dataSetValues.put(JobReportingContract.DynaFieldsEntry.COLUMN_CREATED_ON, Utility.createDateStringFromPattern(Constants.DATEFORMAT_DB_CREATED_ON));
-
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_ID_TAREA, tareas.getId());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_FECHA, tareas.getFecha());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_HORA, tareas.getHora());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_CLIENTE, tareas.getCliente());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_DIRECCION, tareas.getDireccion());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_MATERIALES, tareas.getMateriales());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_DIRECCION, tareas.getDireccion());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_PAGO, tareas.getPago());
+            dataSetValues.put(JobReportingContract.TareaDataEntry.COLUMN_ESTADO, tareas.getEstado());
             _id = db.insert(
-                    JobReportingContract.DynaFieldsEntry.TABLE_NAME,
+                    JobReportingContract.TareaDataEntry.TABLE_NAME,
                     null,
                     dataSetValues
             );
-
             if (_id > 0){
-                LogManager.log(LOG_TAG, "(saveDynaData) Id generated: " + _id, Log.DEBUG);
-            }
-            else {
-                throw new DataAccessException("Failed to insert record for dyna data.");
-            }
-        }
-        catch (DataAccessException daEx){
-            throw daEx;
-        }
-        catch (SQLException sqlEx){
-            LogManager.log(LOG_TAG, "(saveDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
-            throw new DataAccessException("saveDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
-        }
-
-        return _id;
-
-    }
-
-    public boolean flushOldDynaData(){
-
-        boolean isDeleted = false;
-
-        try{
-            String whereClause = "1"; //To the count of deleted rows, 1 is passed here
-            String[] whereArgs = null;
-
-            int count = db.delete(
-                    JobReportingContract.DynaFieldsEntry.TABLE_NAME,
-                    whereClause,
-                    whereArgs
-            );
-
-            LogManager.log(LOG_TAG, "(flushOldDynaData) No. of rows deleted: " + count, Log.DEBUG);
-
-            isDeleted = true;
-
-        }
-        catch (DataAccessException daEx){
-            throw daEx;
-        }
-        catch (SQLException sqlEx){
-            LogManager.log(LOG_TAG, "(flushOldDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
-            throw new DataAccessException("flushOldDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
-        }
-
-        return isDeleted;
-
-    }
-
-    public byte[] fetchDynaData(String dynaType){
-
-        byte[] data = null;
-
-        try{
-            String[] projection = {JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_DATA};
-            String whereClause = JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_TYPE + " = ?";
-            String[] whereArgs = { dynaType };
-
-            Cursor cursor = db.query(
-                    JobReportingContract.DynaFieldsEntry.TABLE_NAME,
-                    projection,
-                    whereClause,
-                    whereArgs,
-                    null,
-                    null,
-                    null
-            );
-
-            LogManager.log(LOG_TAG, "(fetchDynaData) Query : " + cursor.toString(), Log.DEBUG);
-
-            boolean isDataAvailable = cursor.moveToFirst();
-
-            if (isDataAvailable) {
-
-                int columnIndex = cursor.getColumnIndex(JobReportingContract.DynaFieldsEntry.COLUMN_DYNA_DATA);
-                data = cursor.getBlob(columnIndex);
-
-            }
-            else{
-                LogManager.log(LOG_TAG, "No records found in dyna data table.", Log.ERROR);
-                throw new DataAccessException("No records found in dyna data table.");
-            }
-
-            cursor.close();
-
-        }
-        catch (DataAccessException daEx){
-            throw daEx;
-        }
-        catch (SQLException sqlEx){
-            LogManager.log(LOG_TAG, "(fetchDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
-            throw new DataAccessException("fetchDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
-        }
-
-        return data;
-
-    }
-
-    public long saveReportData(String reportData, byte[] photoBytesData, String photoImageName, byte[] signature){
-
-        long _id = -1;
-
-        try{
-            ContentValues dataSetValues = new ContentValues();
-            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_DATA, reportData);
-            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_PHOTO, photoBytesData);
-            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_PHOTO_NAME, photoImageName);
-            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_SIGN, signature);
-            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_STATUS, Constants.REPORTDATAENTRY_STATUS_NOT_SAVED);
-            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_CREATED_ON, Utility.createDateStringFromPattern(Constants.DATEFORMAT_DB_CREATED_ON));
-
-            _id = db.insert(
-                    JobReportingContract.ReportDataEntry.TABLE_NAME,
-                    null,
-                    dataSetValues
-            );
-
-            if (_id > 0){
-                LogManager.log(LOG_TAG, "(saveReportData) Id generated: " + _id, Log.DEBUG);
-            }
-            else {
-                throw new DataAccessException("Failed to insert record for report data.");
-            }
-        }
-        catch (DataAccessException daEx){
-            throw daEx;
-        }
-        catch (SQLException sqlEx){
-            LogManager.log(LOG_TAG, "(saveReportData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
-            throw new DataAccessException("saveReportData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
-        }
-
-        return _id;
-
-    }
-
-    public boolean fetchAllReportData(List<ReportData> dataList){
-
-        boolean isDataAvailable = false;
-
-        try{
-
-            String[] projection = {JobReportingContract.ReportDataEntry._ID, JobReportingContract.ReportDataEntry.COLUMN_DATA, JobReportingContract.ReportDataEntry.COLUMN_PHOTO, JobReportingContract.ReportDataEntry.COLUMN_PHOTO_NAME, JobReportingContract.ReportDataEntry.COLUMN_SIGN};
-            String whereClause = JobReportingContract.ReportDataEntry.COLUMN_STATUS + " = ?";
-            String[] whereArgs = { Constants.REPORTDATAENTRY_STATUS_NOT_SAVED };
-            String sortOrder = JobReportingContract.ReportDataEntry.COLUMN_CREATED_ON + " ASC";
-
-            Cursor reportCursor = db.query(
-                    JobReportingContract.ReportDataEntry.TABLE_NAME,
-                    projection,
-                    whereClause,
-                    whereArgs,
-                    null,
-                    null,
-                    sortOrder
-            );
-
-            LogManager.log(LOG_TAG, "(fetchAllReportData) Query : " + reportCursor.toString(), Log.DEBUG);
-
-            isDataAvailable = reportCursor.moveToFirst();
-
-            if (isDataAvailable) {
-
-                do {
-                    ReportData reportData = new ReportData();
-
-                    int columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_DATA);
-                    String data = reportCursor.getString(columnIndex);
-                    reportData.setData(data);
-
-                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_PHOTO);
-                    byte[] photo = reportCursor.getBlob(columnIndex);
-                    reportData.setPhoto(photo);
-
-                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_PHOTO_NAME);
-                    String photoImageName = reportCursor.getString(columnIndex);
-                    reportData.setPhotoName(photoImageName);
-
-                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry.COLUMN_SIGN);
-                    byte[] sign = reportCursor.getBlob(columnIndex);
-                    reportData.setSign(sign);
-
-                    columnIndex = reportCursor.getColumnIndex(JobReportingContract.ReportDataEntry._ID);
-                    int id = reportCursor.getInt(columnIndex);
-                    reportData.setId(id);
-
-                    dataList.add(reportData);
-                }
-                while (reportCursor.moveToNext());
-
-            }
-            else{
-                LogManager.log(LOG_TAG, "No records found in Report data table.", Log.DEBUG);
-            }
-
-            reportCursor.close();
-
-        }
-        catch (Exception ex){
-            LogManager.log(LOG_TAG, "(fetchAllReportData) Exception occurred : " + ex.getMessage(), Log.ERROR);
-        }
-
-        return isDataAvailable;
-
-    }
-
-    public boolean updateDispatchedReportStatus(int id){
-
-        boolean isUpdated = false;
-
-        try{
-            ContentValues dataSetValues = new ContentValues();
-            dataSetValues.put(JobReportingContract.ReportDataEntry.COLUMN_STATUS, Constants.REPORTDATAENTRY_STATUS_SAVED);
-
-            String whereClause = JobReportingContract.ReportDataEntry._ID + " = ?";
-            String[] whereArgs = { Integer.toString(id) };
-
-            int count = db.update(
-                    JobReportingContract.ReportDataEntry.TABLE_NAME,
-                    dataSetValues,
-                    whereClause,
-                    whereArgs
-            );
-
-            if (count > 0){
-                LogManager.log(LOG_TAG, "(updateDispatchedReportStatus) Report data status updated in the records. ", Log.DEBUG);
-
-                isUpdated = true;
-            }
-            else{
-                LogManager.log(LOG_TAG, "(updateDispatchedReportStatus) Failed to update the data in records. ", Log.ERROR);
-            }
-
-        }
-        catch (Exception ex){
-            LogManager.log(LOG_TAG, "(updateDispatchedReportStatus) Exception occurred : " + ex.getMessage(), Log.ERROR);
-        }
-
-        return isUpdated;
-
-    }
-
-    public long GuardarObra(Obra obra){
-        long _id = -1;
-        try{
-            ContentValues dataSetValues = new ContentValues();
-            dataSetValues.put(JobReportingContract.ObraDataEntry.COLUMN_CODIGO, obra.getCodigo());
-            dataSetValues.put(JobReportingContract.ObraDataEntry.COLUMN_CLIENTE,obra.getCliente());
-            dataSetValues.put(JobReportingContract.ObraDataEntry.COLUMN_DESCRIPCION,obra.getDescripcion());
-            _id = db.insert(
-                    JobReportingContract.ObraDataEntry.TABLE_NAME,
-                    null,
-                    dataSetValues
-            );
-            if (_id > 0){
-                LogManager.log(LOG_TAG, "(saveDynaData) Id generated: " + _id, Log.DEBUG);
+                LogManager.log(LOG_TAG, "(saveTareas) Id generated: " + _id, Log.DEBUG);
             }else {
-                throw new DataAccessException("Failed to insert record for dyna data.");
+                throw new DataAccessException("Failed to insert record for tareas.");
             }
         }
         catch (DataAccessException daEx){
             throw daEx;
         }
         catch (SQLException sqlEx){
-            LogManager.log(LOG_TAG, "(saveDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
-            throw new DataAccessException("saveDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
+            LogManager.log(LOG_TAG, "(saveTareas) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
+            throw new DataAccessException("saveTareas() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
         }
         return _id;
     }
 
-    public boolean VaciarObra(){
+    public boolean flushTareas(){
         boolean isDeleted = false;
         try{
             String whereClause = "1"; //To the count of deleted rows, 1 is passed here
             String[] whereArgs = null;
 
             int count = db.delete(
-                    JobReportingContract.ObraDataEntry.TABLE_NAME,
+                    JobReportingContract.TareaDataEntry.TABLE_NAME,
                     whereClause,
                     whereArgs
             );
-            LogManager.log(LOG_TAG, "(flushOldDynaData) No. of rows deleted: " + count, Log.DEBUG);
+            LogManager.log(LOG_TAG, "(flushTareas) No. of rows deleted: " + count, Log.DEBUG);
             isDeleted = true;
         }catch (DataAccessException daEx){
             throw daEx;
         }catch (SQLException sqlEx){
-            LogManager.log(LOG_TAG, "(flushOldDynaData) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
-            throw new DataAccessException("flushOldDynaData() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
+            LogManager.log(LOG_TAG, "(flushTareas) Exception occurred : " + sqlEx.getMessage(), Log.ERROR);
+            throw new DataAccessException("flushTareas() -> SQLException occurred in DAO layer : " + sqlEx.getMessage());
         }
         return isDeleted;
     }
 
-    public ArrayList<Obra> leerObra(){
+    public ArrayList<WSTareas> fecthTareas(){
 
         String[] projection = {"*"};
         String whereClause = null;
         String[] whereArgs = null;
-        ArrayList<Obra> datosObra = new ArrayList<>();
+        ArrayList<WSTareas> tareas = new ArrayList<>();
 
         Cursor cursor = db.query(
-                JobReportingContract.ObraDataEntry.TABLE_NAME,
+                JobReportingContract.TareaDataEntry.TABLE_NAME,
                 projection,
                 whereClause,
                 whereArgs,
@@ -483,13 +489,18 @@ public class JobReportingDao {
 
         while (cursor.moveToNext()) {
             int id = cursor.getInt(0);
-            Obra obra = new Obra();
-            obra.setCodigo(cursor.getString(1));
-            obra.setCliente(cursor.getString(2));
-            obra.setDescripcion(cursor.getString(3));
-            datosObra.add(obra);
+            WSTareas tarea = new WSTareas();
+            tarea.setId(cursor.getInt(1));
+            tarea.setCliente(cursor.getString(2));
+            tarea.setFecha(cursor.getString(3));
+            tarea.setHora(cursor.getString(4));
+            tarea.setDireccion(cursor.getString(5));
+            tarea.setMateriales(cursor.getString(6));
+            tarea.setPago(cursor.getString(7));
+            tarea.setEstado(cursor.getString(8));
+            tareas.add(tarea);
         }
 
-        return datosObra;
+        return tareas;
     }
 }

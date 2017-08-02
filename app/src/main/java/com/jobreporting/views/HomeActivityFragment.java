@@ -97,16 +97,16 @@ public class HomeActivityFragment extends Fragment {
     public void showProductList(){
 
         //Call Products Mgmt Activity
-        Intent intent = new Intent(getContext(), PrdsMgmtActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(getContext(), PrdsMgmtActivity.class);
+//        startActivity(intent);
 
     }
 
     public void showCustomerList(){
 
         //Call Customer Mgmt Activity
-        Intent intent = new Intent(getContext(), CstmrMgmtActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(getContext(), CstmrMgmtActivity.class);
+//        startActivity(intent);
 
     }
 
@@ -121,8 +121,8 @@ public class HomeActivityFragment extends Fragment {
     public void showTaskForm(){
 
         //Call Report form Activity
-        Intent intent = new Intent(getContext(), TskMgmtActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(getContext(), TskMgmtActivity.class);
+//        startActivity(intent);
 
     }
 

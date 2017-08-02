@@ -29,6 +29,7 @@ import com.jobreporting.business.common.LogManager;
 import com.jobreporting.business.facade.ServicesFacade;
 import com.jobreporting.dao.JobReportingDao;
 import com.jobreporting.entities.WSDeviceAuth;
+import com.jobreporting.entities.WSTareas;
 import com.jobreporting.exceptions.ServicesFacadeException;
 import com.jobreporting.requests.WSOneTimeAuthRequest;
 import com.jobreporting.responses.WSBaseResponse;
@@ -38,6 +39,7 @@ import com.jobreporting.utilities.ServiceUtility;
 import com.jobreporting.utilities.Utility;
 import com.jobreporting.views.ServerErrorActivity;
 import java.net.HttpURLConnection;
+import java.util.ArrayList;
 import java.util.Map;
 
 public class AuthAction {
@@ -114,25 +116,19 @@ public class AuthAction {
                         LogManager.log(LOG_TAG, "Saving the data in the database...", Log.DEBUG);
 
                         String tokenKey = response.getTokenKey();
-                        Map<String, String> productsDetails = response.getProductsDetails();
-                        Map<String, String> customersDetails = response.getCustomersDetails();
+
 
                         //Save Token
                         boolean isTokenDeleted = dao.flushOldToken();
                         long _id = dao.saveToken(tokenKey);
-                        LogManager.log(LOG_TAG, "Token saved successfully", Log.DEBUG);
 
-                        //Save Dyna Details
-                        boolean isDynaDetailsDeleted = dao.flushOldDynaData();
-
-                        byte[] cstmrDetailsBlob = Utility.serializeObjToForBlob(customersDetails);
-                        long dyna_id_cstmr = dao.saveDynaData(cstmrDetailsBlob, Constants.DYNATABLE_TYPE_CUSTOMER);
-                        LogManager.log(LOG_TAG, "Customer Details saved successfully", Log.DEBUG);
-
-                        byte[] prdDetailsBlob = Utility.serializeObjToForBlob(productsDetails);
-                        long dyna_id_prd = dao.saveDynaData(prdDetailsBlob, Constants.DYNATABLE_TYPE_PRODUCT);
-                        LogManager.log(LOG_TAG, "Product Details saved successfully", Log.DEBUG);
-                        LogManager.log(LOG_TAG, "All details are saved in the database successfully.", Log.DEBUG);
+                        //Save Tareas
+                        boolean isTareasDeleted = dao.flushTareas();
+                        for (WSTareas tarea : response.getTareas()) {
+                            long tareas = dao.saveTareas(tarea);
+                        }
+                        ArrayList<WSTareas> tareas = dao.fecthTareas();
+                        LogManager.log(LOG_TAG, "ERROR response returned from Server.", Log.DEBUG);
                     }else{
                         LogManager.log(LOG_TAG, "ERROR response returned from Server.", Log.DEBUG);
                         isErrorResponse = true;
