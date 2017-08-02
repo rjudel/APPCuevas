@@ -18,7 +18,7 @@ public class ConfigConstants {
 
     /* Services Constants */
     //public static final String SERVICE_BASE_URL                                         = "http://10.0.2.2:8088/JobReporting/services/";
-    public static final String SERVICE_BASE_URL                                         = "http://130.211.49.191:8030/WSAlba/services/";
+    public static final String SERVICE_BASE_URL                                         = "http://130.211.49.191:8030/WSCuevas/services/";
     public static final String SERVICE_ONETIMEAUTH                                      = "oneTimeAuth";
     public static final String SERVICE_SYNCHER                                          = "sync";
     public static final String SERVICE_REPORT                                           = "reports";

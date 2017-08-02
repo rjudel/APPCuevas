@@ -17,10 +17,10 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.jobreporting.dao.JobReportingContract.DynaFieldsEntry;
+import com.jobreporting.dao.JobReportingContract.UrgenciaDataEntry;
 import com.jobreporting.dao.JobReportingContract.ReportDataEntry;
 import com.jobreporting.dao.JobReportingContract.TokenEntry;
-import com.jobreporting.dao.JobReportingContract.ObraDataEntry;
+import com.jobreporting.dao.JobReportingContract.TareaDataEntry;
 
 public class JobReportingDbHelper extends SQLiteOpenHelper {
 
@@ -42,34 +42,55 @@ public class JobReportingDbHelper extends SQLiteOpenHelper {
                 TokenEntry.COLUMN_CREATED_ON + " TEXT " +
                 " );";
 
-        final String SQL_CREATE_DYNAFIELDS_TABLE = "CREATE TABLE " + DynaFieldsEntry.TABLE_NAME + " (" +
-                DynaFieldsEntry._ID + " INTEGER PRIMARY KEY," +
-                DynaFieldsEntry.COLUMN_DYNA_TYPE + " TEXT NOT NULL, " +
-                DynaFieldsEntry.COLUMN_DYNA_DATA + " BLOB NOT NULL, " +
-                DynaFieldsEntry.COLUMN_CREATED_ON + " TEXT " +
-                " );";
-
-        final String SQL_CREATE_REPORTDATA_TABLE = "CREATE TABLE " + ReportDataEntry.TABLE_NAME + " (" +
+        final String SQL_CREATE_REPORT_TABLE = "CREATE TABLE " + ReportDataEntry.TABLE_NAME + " (" +
                 ReportDataEntry._ID + " INTEGER PRIMARY KEY," +
-                ReportDataEntry.COLUMN_DATA + " TEXT NOT NULL, " +
+                ReportDataEntry.COLUMN_ID_TAREA + " INTEGER," +
+                ReportDataEntry.COLUMN_FECHA + " DATE, " +
+                ReportDataEntry.COLUMN_HORA + " TIME, " +
+                ReportDataEntry.COLUMN_CLIENTE + " VARCHAR(50)," +
+                ReportDataEntry.COLUMN_MATERIALES + " TEXT, " +
+                ReportDataEntry.COLUMN_PAGO + " TEXT, " +
+                ReportDataEntry.COLUMN_INCIDENCIAS + " TEXT, " +
+                ReportDataEntry.COLUMN_FIRMANTE + " VARCHAR(50)," +
+                ReportDataEntry.COLUMN_ESTADO + " VARCHAR(50), " +
                 ReportDataEntry.COLUMN_PHOTO + " BLOB, " +
                 ReportDataEntry.COLUMN_PHOTO_NAME + " TEXT, " +
                 ReportDataEntry.COLUMN_SIGN + " BLOB, " +
-                ReportDataEntry.COLUMN_STATUS + " INTEGER NOT NULL, " +
-                ReportDataEntry.COLUMN_CREATED_ON + " TEXT " +
+                ReportDataEntry.COLUMN_SYNC + " INTEGER " +
                 " );";
 
-        final String SQL_CREATE_OBRA_TABLE = "CREATE TABLE " + ObraDataEntry.TABLE_NAME + " (" +
-                ObraDataEntry._ID + " INTEGER PRIMARY KEY," +
-                ObraDataEntry.COLUMN_CODIGO + " TEXT, " +
-                ObraDataEntry.COLUMN_CLIENTE + " TEXT, " +
-                ObraDataEntry.COLUMN_DESCRIPCION + " TEXT " +
+        final String SQL_CREATE_URGENCIA_TABLE = "CREATE TABLE " + UrgenciaDataEntry.TABLE_NAME + " (" +
+                UrgenciaDataEntry._ID + " INTEGER PRIMARY KEY," +
+                UrgenciaDataEntry.COLUMN_FECHA + " DATE, " +
+                UrgenciaDataEntry.COLUMN_HORA + " TIME, " +
+                UrgenciaDataEntry.COLUMN_CLIENTE + " VARCHAR(50)," +
+                UrgenciaDataEntry.COLUMN_MATERIALES + " TEXT, " +
+                UrgenciaDataEntry.COLUMN_PAGO + " TEXT, " +
+                UrgenciaDataEntry.COLUMN_INCIDENCIAS + " TEXT, " +
+                UrgenciaDataEntry.COLUMN_FIRMANTE + " VARCHAR(50)," +
+                UrgenciaDataEntry.COLUMN_ESTADO + " VARCHAR(50), " +
+                UrgenciaDataEntry.COLUMN_PHOTO + " BLOB, " +
+                UrgenciaDataEntry.COLUMN_PHOTO_NAME + " TEXT, " +
+                UrgenciaDataEntry.COLUMN_SIGN + " BLOB, " +
+                UrgenciaDataEntry.COLUMN_SYNC + " INTEGER " +
+                " );";
+
+        final String SQL_CREATE_TAREA_TABLE = "CREATE TABLE " + TareaDataEntry.TABLE_NAME + " (" +
+                TareaDataEntry._ID + " INTEGER PRIMARY KEY," +
+                TareaDataEntry.COLUMN_ID_TAREA + " INTEGER," +
+                TareaDataEntry.COLUMN_FECHA + " DATE, " +
+                TareaDataEntry.COLUMN_HORA + " TIME, " +
+                TareaDataEntry.COLUMN_CLIENTE + " VARCHAR(50)," +
+                TareaDataEntry.COLUMN_DIRECCION + " TEXT, " +
+                TareaDataEntry.COLUMN_MATERIALES + " TEXT " +
+                TareaDataEntry.COLUMN_PAGO + " TEXT " +
+                TareaDataEntry.COLUMN_ESTADO + " VARCHAR(50) " +
                 " );";
 
         sqLiteDatabase.execSQL(SQL_CREATE_TOKEN_TABLE);
-        sqLiteDatabase.execSQL(SQL_CREATE_DYNAFIELDS_TABLE);
-        sqLiteDatabase.execSQL(SQL_CREATE_REPORTDATA_TABLE);
-        sqLiteDatabase.execSQL(SQL_CREATE_OBRA_TABLE);
+        sqLiteDatabase.execSQL(SQL_CREATE_REPORT_TABLE);
+        sqLiteDatabase.execSQL(SQL_CREATE_URGENCIA_TABLE);
+        sqLiteDatabase.execSQL(SQL_CREATE_TAREA_TABLE);
 
     }
 
@@ -77,9 +98,9 @@ public class JobReportingDbHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
 
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + TokenEntry.TABLE_NAME);
-        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + DynaFieldsEntry.TABLE_NAME);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + UrgenciaDataEntry.TABLE_NAME);
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + ReportDataEntry.TABLE_NAME);
-        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + ObraDataEntry.TABLE_NAME);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + TareaDataEntry.TABLE_NAME);
 
         onCreate(sqLiteDatabase);
 

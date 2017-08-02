@@ -1,4 +1,0 @@
-#Thu Jun 22 10:50:21 CEST 2017
-base.0=C\:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
-renamed.0=classes.dex
-file.0=C\:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

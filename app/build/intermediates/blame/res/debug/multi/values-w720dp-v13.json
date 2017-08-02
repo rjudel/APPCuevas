@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\values-w720dp-v13\\values-w720dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 76,
-                        "endOffset": 127
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
         "map": [
             {

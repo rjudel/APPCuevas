@@ -30,20 +30,20 @@ public class JobReportingProvider extends ContentProvider {
     private static final UriMatcher sUriMatcher = buildUriMatcher();
     private JobReportingDbHelper mDbHelper;
 
-    static final int DYNAFIELDS = 100;
+    static final int URGENCIA = 100;
     static final int REPORTDATA = 200;
-    static final int OBRA = 300;
+    static final int TAREA = 300;
 
     static UriMatcher buildUriMatcher() {
 
         final UriMatcher matcher = new UriMatcher(UriMatcher.NO_MATCH);
         final String authority = JobReportingContract.CONTENT_AUTHORITY;
 
-        matcher.addURI(authority, JobReportingContract.PATH_DYNAFIELDS, DYNAFIELDS);
+        matcher.addURI(authority, JobReportingContract.PATH_URGENCIA, URGENCIA);
 
         matcher.addURI(authority, JobReportingContract.PATH_REPORTDATA, REPORTDATA);
 
-        matcher.addURI(authority, JobReportingContract.PATH_OBRA, OBRA);
+        matcher.addURI(authority, JobReportingContract.PATH_TAREA, TAREA);
 
         return matcher;
     }
@@ -61,12 +61,12 @@ public class JobReportingProvider extends ContentProvider {
         final int match = sUriMatcher.match(uri);
 
         switch (match) {
-            case DYNAFIELDS:
-                return JobReportingContract.DynaFieldsEntry.CONTENT_TYPE;
+            case URGENCIA:
+                return JobReportingContract.UrgenciaDataEntry.CONTENT_TYPE;
             case REPORTDATA:
                 return JobReportingContract.ReportDataEntry.CONTENT_TYPE;
-            case OBRA:
-                return JobReportingContract.ObraDataEntry.CONTENT_TYPE;
+            case TAREA:
+                return JobReportingContract.TareaDataEntry.CONTENT_TYPE;
             default:
                 throw new UnsupportedOperationException("Unknown uri: " + uri);
         }
@@ -96,9 +96,9 @@ public class JobReportingProvider extends ContentProvider {
 
         switch (sUriMatcher.match(uri)) {
 
-            case DYNAFIELDS: {
+            case URGENCIA: {
                 retCursor = mDbHelper.getReadableDatabase().query(
-                        JobReportingContract.DynaFieldsEntry.TABLE_NAME,
+                        JobReportingContract.UrgenciaDataEntry.TABLE_NAME,
                         projection,
                         selection,
                         selectionArgs,
@@ -122,9 +122,9 @@ public class JobReportingProvider extends ContentProvider {
                 break;
             }
 
-            case OBRA: {
+            case TAREA: {
                 retCursor = mDbHelper.getReadableDatabase().query(
-                        JobReportingContract.ObraDataEntry.TABLE_NAME,
+                        JobReportingContract.TareaDataEntry.TABLE_NAME,
                         projection,
                         selection,
                         selectionArgs,

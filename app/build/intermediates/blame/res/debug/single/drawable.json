@@ -1,39 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_heading.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_heading.xml"
+    },
+    {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_forms_buttons_submit.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_forms_buttons_submit.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_buttons_reset.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\auth_buttons_reset.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\c7b54e8f07a47a7767a3ecf47393d40f69db9782\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_outlineborder_2.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_outlineborder_2.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_outlineborder_2.xml",
         "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_outlineborder_2.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_edittextview.xml",
@@ -44,10 +32,6 @@
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\64cd0bff13497441cc646dfb1bdff966e899524f\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_heading.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_heading.xml"
-    },
-    {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
@@ -56,68 +40,68 @@
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_outlineborder_1.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_outlineborder_1.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_edittextview.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_edittextview.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_buttons_submit.xml",
         "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\auth_buttons_submit.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_signpad.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_signpad.xml"
-    },
-    {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_forms_buttons_reset.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_forms_buttons_reset.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\64cd0bff13497441cc646dfb1bdff966e899524f\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_outlineborder_1.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_outlineborder_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_buttons.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\home_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_edittextviews.xml",
         "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\auth_edittextviews.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -128,16 +112,8 @@
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_forms_buttons_submit.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_forms_buttons_submit.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_buttons_reset.xml",
+        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\auth_buttons_reset.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
@@ -148,16 +124,16 @@
         "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_forms_buttons_reset.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_buttons_submit.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\auth_buttons_submit.xml"
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_spinner.xml",
@@ -174,142 +150,6 @@
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_heading.xml",
-        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_heading.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_forms_buttons_submit.xml",
-        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_forms_buttons_submit.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_buttons.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\home_buttons.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_edittextviews.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\auth_edittextviews.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_spinner.xml",
-        "source": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_spinner.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\c7b54e8f07a47a7767a3ecf47393d40f69db9782\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\64cd0bff13497441cc646dfb1bdff966e899524f\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rpt_form_outlineborder_1.xml",
-        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\rpt_form_outlineborder_1.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_buttons.xml",
-        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\home_buttons.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_buttons_reset.xml",
-        "source": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\src\\main\\res\\drawable\\auth_buttons_reset.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Ricardo\\.android\\build-cache\\f3c0887ebd28f43ba38536d87ee758b138f18f82\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\Desktop\\AlbaDef\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Alejandro\\.android\\build-cache\\62bddac4ad81ec032659b01e10b4274faa7ccc51\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\Ricardo\\Desktop\\Cuevas\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",

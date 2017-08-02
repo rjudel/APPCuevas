@@ -27,11 +27,13 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name="com.jobreporting.views.HomeActivity"
@@ -41,6 +43,12 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.jobreporting.views.AuthActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.jobreporting.views.CstmrMgmtActivity"
@@ -126,9 +134,9 @@
         <service android:name="com.jobreporting.business.services.SyncherService" />
         <service android:name="com.jobreporting.business.services.ObraService" />
         <!--
-             <provider
-            android:name=".dao.JobReportingProvider"
-            android:authorities="@string/content_authority" />
+         <provider
+        android:name=".dao.JobReportingProvider"
+        android:authorities="@string/content_authority" />
         -->
 
         <provider
